@@ -1,0 +1,6 @@
+use("espe");
+db.users.insertOne({
+  name: "Juan",
+  lastName: "Perez",
+  email: "juan@espe.edu.ec",
+});
