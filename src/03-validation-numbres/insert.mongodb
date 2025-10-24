@@ -1,0 +1,9 @@
+use("espe");
+db.users.insertOne({
+  name: "Juan",
+  email: "juan@espe.edu.ec",
+  role: "admin",
+  password: "admin123",
+  isSingle: false,
+  age: 32,
+});

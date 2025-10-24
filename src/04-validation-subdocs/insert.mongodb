@@ -1,0 +1,9 @@
+use("espe");
+db.products.insertOne({
+  name: "Camiseta",
+  sizes: ["L", "M"],
+  category: {
+    name: "Ropa",
+    image: "ropa.jpg",
+  },
+});
