@@ -1,6 +1,6 @@
 use("espe");
 db.users.insertOne({
   email: "paulo-123@hotmail.es",
-  password: "Azas1jhjsd8978sdA",
+  password: "Az1sd89sdA",
   role: "admin",
 });
